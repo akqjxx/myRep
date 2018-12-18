@@ -9,6 +9,7 @@ public class User implements java.io.Serializable {
 
 	private Integer id;
 	private String password;
+	private String sex;
 	private String name;
 	private Integer age;
 

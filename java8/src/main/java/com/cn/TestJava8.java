@@ -24,7 +24,7 @@ public class TestJava8 {
 				new User(3,"王五",12),
 				new User(4,"赵六",13), 
 				new User(1,"田七",10)  
-				);
+				);     
 	}
 	
 	@Test

@@ -8,6 +8,7 @@ public class User implements java.io.Serializable {
 	private static final long serialVersionUID = 3414015629543993802L;
 
 	private Integer id;
+	private String sex;
 	private String name;
 	private Integer age;
 

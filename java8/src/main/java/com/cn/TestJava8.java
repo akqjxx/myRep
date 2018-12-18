@@ -17,7 +17,7 @@ import com.cn.model.User;
 public class TestJava8 {
 	List<User> list = null; 
 	@Before
-	public void t() {
+	public void t() { 
 		list =  Arrays.asList(
 				new User(1,"张三",10),
 				new User(2,"李四",11),

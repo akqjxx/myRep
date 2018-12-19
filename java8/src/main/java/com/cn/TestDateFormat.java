@@ -15,9 +15,10 @@ public class TestDateFormat {
 
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
 		//  DateFormat d = new SimpleDateFormat("yyyyMMdd");
-		  ThreadLocalTool t = new ThreadLocalTool();
+		//  ThreadLocalTool t = new ThreadLocalTool();
 	
 	 Callable<Date> call = () -> {
+		  ThreadLocalTool t = new ThreadLocalTool();
 				///return d.parse("20180303");
 		 return t.convert("20180203");
 	};

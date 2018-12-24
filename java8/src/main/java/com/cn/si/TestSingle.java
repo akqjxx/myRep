@@ -19,7 +19,11 @@ public class TestSingle {
 		for (int i = 0; i < 100000; i++) {
 			set.add(es.submit(task).get());
 		}
+<<<<<<< HEAD
 		es.shutdown(); 
+=======
+		es.shutdown();
+>>>>>>> branch 'master' of https://github.com/akqjxx/myRep.git
 		set.forEach(System.out::println);
 	}
 }

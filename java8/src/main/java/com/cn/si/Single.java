@@ -1,14 +1,14 @@
 package com.cn.si;
 
 public class Single {
-	private static  Single si = new Single();
+	private static  final Single SI = new Single();
 	
 	private Single(){};
 	
 	private static class InnerSingle{
 		
 		private static  Single create() {
-			return  si;
+			return  SI;
 		}
 		
 	}
